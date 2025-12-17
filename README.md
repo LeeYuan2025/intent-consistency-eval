@@ -1,52 +1,50 @@
 # Intent Consistency Evaluation
 
-This repository contains a minimal, evaluation-focused prototype for
-analyzing cross-context and temporal consistency patterns in large
-language model responses.
-
-The work is intended strictly for diagnostic and research purposes.
-It does not perform decision-making, enforcement, deployment, or
-end-user interaction.
-
 ## Motivation
 
-This work is motivated by the need for earlier visibility into latent
-model intent inconsistencies that may not be observable through
-traditional output-level evaluation alone.
+This repository is a minimal evaluation-focused prototype designed
+to investigate cross-context and temporal consistency patterns in
+large language model behavior. The goal is to provide earlier,
+diagnostic visibility into latent model consistency instability that
+may not be visible through traditional output-only evaluation.
 
 ## Overview
 
-Current alignment and safety approaches are effective at constraining
-observable outputs. This prototype explores whether simple consistency
-checks across prompt variations and multi-turn contexts can provide
-earlier visibility into potential intent-level instability.
+Current evaluation and alignment approaches constrain observable
+outputs and enforce compliance criteria. However, they offer limited
+visibility into potential intent-level drift under prompt variation,
+extended interaction, or surface-level strategic behavior.
 
-The system produces descriptive signals only and is designed to
-support human-in-the-loop evaluation and failure-mode analysis.
+This work explores whether simple consistency measurements can
+produce descriptively useful signals that support human-in-the-loop
+evaluation and failure-mode analysis.
 
 ## Minimal Reproducible Test (MRT)
 
-A minimal reproducible test is included to demonstrate:
+A Minimal Reproducible Test (MRT) is included to demonstrate:
 - Cross-context consistency measurement
-- Temporal stability across short dialogue horizons
+- Temporal stability across short interaction sequences
 - Clearly defined operational limits
 
-The MRT uses short dialogue snippets and controlled prompt variations.
-No optimization objective or behavioral control is introduced.
-
-To run the MRT, see examples in the included script/notebook and adjust
-only minimal configuration parameters; no external dependencies are required.
+The MRT uses short dialogue snippets and controlled prompt
+variations. Example code and configuration demonstrate how to
+run the MRT with minimal setup.
 
 ## Scope and Limitations
 
-- Evaluation and analysis only
-- Non-decisional and non-normative
-- No policy enforcement or automated actions
-- Not intended for production or consumer-facing use
+- Diagnostic and research use only  
+- Non-decisional and non-normative evaluation  
+- No policy enforcement or automated actions  
+- Not intended for commercial deployment or user-facing products  
+- Intended for human-in-the-loop analysis, not autonomous usage
 
-This repository is intended for use by researchers and evaluators
-only; not for use in commercial products or consumer-facing applications.
+## Getting Started
+
+Clone the repository and inspect the included examples to understand
+how consistency signals are generated and interpreted. See example
+scripts for usage patterns and minimal configuration.
 
 ## License
 
-This project is released under the MIT License.
+This repository is released under the MIT License.
+
