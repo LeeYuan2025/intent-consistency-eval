@@ -44,6 +44,9 @@ only minimal configuration parameters; no external dependencies are required.
 - No policy enforcement or automated actions
 - Not intended for production or consumer-facing use
 
+This repository is intended for use by researchers and evaluators
+only; not for use in commercial products or consumer-facing applications.
+
 ## License
 
 This project is released under the MIT License.
