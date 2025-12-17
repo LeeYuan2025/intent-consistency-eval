@@ -34,6 +34,9 @@ A minimal reproducible test is included to demonstrate:
 The MRT uses short dialogue snippets and controlled prompt variations.
 No optimization objective or behavioral control is introduced.
 
+To run the MRT, see examples in the included script/notebook and adjust
+only minimal configuration parameters; no external dependencies are required.
+
 ## Scope and Limitations
 
 - Evaluation and analysis only
