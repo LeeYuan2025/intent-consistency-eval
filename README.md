@@ -8,6 +8,12 @@ The work is intended strictly for diagnostic and research purposes.
 It does not perform decision-making, enforcement, deployment, or
 end-user interaction.
 
+## Motivation
+
+This work is motivated by the need for earlier visibility into latent
+model intent inconsistencies that may not be observable through
+traditional output-level evaluation alone.
+
 ## Overview
 
 Current alignment and safety approaches are effective at constraining
