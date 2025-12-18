@@ -1,0 +1,7 @@
+[
+  {
+    "id": "mrt_eval",
+    "desc": "MRT eval v1.0 (domain-agnostic, artifact-level)",
+    "cmd": "python ./tools/csv_eval.py --in ./input --outdir ./work"
+  }
+]
