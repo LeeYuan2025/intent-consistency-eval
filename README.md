@@ -1,3 +1,22 @@
+# MRT — Minimal Requirements Test
+
+MRT is a **minimal, domain-agnostic artifact-level evaluation gate** designed to run **before any model-based or semantic evaluation**.
+
+It checks whether an input artifact (e.g. CSV, structured data) satisfies **basic structural and consistency requirements**, so downstream models are not evaluated on invalid or ill-formed inputs.
+
+**Key properties**
+- Artifact-level (not a semantic or language model)
+- Pre-model gate for eval pipelines
+- Domain-agnostic by design
+- Includes a 30-second sanity check (CSV + CLI)
+
+## 30-second sanity check
+
+```bash
+python run-mrt.py --list
+python run-mrt.py --run --dry-run
+python run-mrt.py --run
+
 # Intent Consistency Evaluation
 
 ## Motivation
