@@ -1,3 +1,7 @@
+Status: Draft (v1.0)
+
+Repository: https://github.com/LeeYuan2025/intent-consistency-eval
+
 MRT: A Minimal Artifact-Level Evaluation Gate
 Technical Note v1.0
 1. Motivation: Why Artifact-Level Evaluation Matters
