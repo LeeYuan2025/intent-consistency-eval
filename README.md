@@ -2,13 +2,21 @@
 
 MRT is a **minimal, domain-agnostic artifact-level evaluation gate** designed to run **before any model-based or semantic evaluation**.
 
-It checks whether an input artifact (e.g. CSV, structured data) satisfies **basic structural and consistency requirements**, so downstream models are not evaluated on invalid or ill-formed inputs.
+It checks whether an input artifact (e.g. CSV or other structured data) satisfies **basic structural and consistency requirements**, so downstream models and evaluators are not applied to invalid or ill-formed inputs.
 
-**Key properties**
-- Artifact-level (not a semantic or language model)
-- Pre-model gate for eval pipelines
+MRT is intentionally simple: it is not a language model, not a semantic scorer, and not a policy framework. It exists solely to enforce **minimal input contracts** at the artifact level.
+
+---
+
+## Key properties
+
+- Artifact-level (not semantic, not model-based)
+- Designed as a pre-model gate for evaluation pipelines
 - Domain-agnostic by design
+- Explicit, inspectable evaluation rules
 - Includes a 30-second sanity check (CSV + CLI)
+
+---
 
 ## 30-second sanity check
 
