@@ -10,11 +10,13 @@ MRT is intentionally simple: it is not a language model, not a semantic scorer, 
 
 ## Key properties
 
-- Artifact-level (not semantic, not model-based)
-- Designed as a pre-model gate for evaluation pipelines
-- Domain-agnostic by design
-- Explicit, inspectable evaluation rules
-- Includes a 30-second sanity check (CSV + CLI)
+- *Artifact-level only* — checks input shape, constraints, and field consistency
+- *Pre-model / pre-eval gate* — runs before any model inference or semantic scoring
+- *Domain-agnostic & spec-driven* — no domain-specific assumptions
+- *Fast & deterministic* — clear pass/fail reasons
+- *Explicit, inspectable evaluation rules* (no implicit heuristics)
+- *Includes a 30-second sanity check* (CSV artifacts + CLI)
+
 
 ---
 
