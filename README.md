@@ -29,6 +29,32 @@ python run-mrt.py --run
 
 # Intent Consistency Evaluation
 
+---
+
+## 📌 Context & Strategic Motivation
+
+This repository contains an operational evaluation component that extends beyond conventional alignment evaluation.  
+The **Intent Consistency Evaluation (MRT)** presented here is intentionally positioned as an **operational v0.1 entry module** of a larger alignment and risk framework, rather than a stand-alone idea.
+
+The core insight driving this work is that **systemic risk in advanced AI systems is not solely a model behavior problem, but stems from motivation instability amplified by capability growth**.  
+In practical terms: if system power (**F**) scales faster than stable values (**C**), and internal motivational coherence (**I**) is not tractably measurable or governed, risk can manifest at civilization-relevant scales.
+
+As a result, this work proposes a **measurable, testable primitive** focusing on:
+- quantifying internal intent coherence,
+- detecting motivational drift,
+- and providing a viable base signal for broader governance pipelines.
+
+This metric is designed to serve as the first operational component of a broader alignment infrastructure that includes:
+- human-level state dynamics (HLS),
+- civilization positioning (CI-64, CHI),
+- macro risk telemetry (PQ-R),
+- motivational deviation vectors (I-Vector),
+- and interaction models between intention and power (IxF).
+
+By framing this work in this context, we provide a clear justification for early evaluation deployment rather than waiting for future speculative frameworks.
+
+---
+
 ## Motivation
 
 This repository is a minimal evaluation-focused prototype designed
