@@ -1,5 +1,80 @@
 MRT: A Minimal Artifact-Level Evaluation Gate
 Technical Note v1.0
+
+TAS Alignment Framework — This Repo = Operational Entry Point
+
+This repository is not just a standalone evaluation idea.
+It is the operational v0.1 entry module of a broader, unified alignment and civilization-safety framework called TAS (Tectonic Alignment System).
+
+❗ Problem Context
+
+Current AI alignment work is mostly model-centric.
+However, the core risk vector is not only in model behavior, but in:
+
+I-risk (inner motivational drift)
+
+C-risk (civilizational misalignment)
+
+amplified by F (capability-force) at planetary scale
+
+In short:
+
+If F grows faster than C,
+and I is not governed,
+we do not just get “misuse risk”,
+we get civilization-level instability.
+
+✅ What This Repo Provides
+
+This repo delivers the first measurable, testable operational primitive:
+
+MRT — Motivational / Intent Consistency Evaluation
+
+It is designed to:
+
+detect intent drift
+
+quantify internal reasoning coherence
+
+expose early signals of I-risk
+
+and serve as a foundational sensor in a much larger governance system
+
+🧩 Where This Fits in TAS
+
+MRT is one module inside a structured system:
+
+Layer	Purpose
+HLS	Human-Level State — core mind / motivation dynamics
+I-Risk Vector	how motivation deviates under power & incentives
+CI-64 / CHI	civilization positioning & stability modeling
+PQ-R	macro risk telemetry
+IxF Framework	how intention × power generates systemic outcomes
+📍 This Repo	Operational v0.1 entry: measurable I-risk baseline
+
+This is intentionally the first step because:
+1️⃣ It is testable
+2️⃣ It integrates into real eval pipelines
+3️⃣ It generates evidence, not philosophy
+
+🚧 Roadmap (Short)
+
+extend MRT → full I-vector
+
+integrate with macro stability telemetry (PQ-R)
+
+connect with national security / AGI governance scenarios
+
+deliver full civilization-alignment dashboard
+
+🎯 Why share publicly?
+
+Because alignment is not only a technical discipline,
+and civilization safety cannot be delayed until after capability scaling.
+
+This repo is the piece that can be used now,
+not “a future theoretical promise”.
+
 1. Motivation: Why Artifact-Level Evaluation Matters
 
 Most current evaluation practices focus on model behavior at the semantic level (e.g., response quality, alignment, robustness).
